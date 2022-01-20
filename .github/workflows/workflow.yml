@@ -25,13 +25,13 @@ jobs:
           aws-region: ap-southeast-1
 
         # Build App and Run Application Test
-#       - name: Build Application and Run unit Test
-#         run: python run.py & pytest
+      - name: Build Application and Run unit Test
+        run: python run.py & pytest
 
   continuous-deployment:
     runs-on: ubuntu-latest
     needs: [continuous-integration]
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
