@@ -9,8 +9,7 @@ app = Flask(__name__)
 @app.route('/index')
 def index():
     print("Anmol")
-    print("Anmol----------")
-    print("AnmolTest")
-    print("898")
+    print("New changes for the demo purpose")
+    # Changes in code
 
     return render_template('index.html')
