@@ -11,6 +11,6 @@ def index():
     print("Anmol")
     print("Anmol----------")
     print("AnmolTest")
-    print("AnmolTest09809898")
+    print("898")
 
     return render_template('index.html')
