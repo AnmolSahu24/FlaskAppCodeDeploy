@@ -10,5 +10,6 @@ app = Flask(__name__)
 def index():
     print("Anmol")
     print("Anmol----------")
+    print("AnmolTest")
 
     return render_template('index.html')
