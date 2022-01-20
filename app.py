@@ -8,4 +8,5 @@ bootstrap = Bootstrap(app)
 @app.route('/')
 @app.route('/index')
 def index():
+    print("Anmol")
     return render_template('index.html')
