@@ -11,6 +11,5 @@ def index():
     print("Anmol")
     print("New changes for the demo purpose")
     # Changes in code
-    # Changes in code
-
+    print("test 01")
     return render_template('index.html')
